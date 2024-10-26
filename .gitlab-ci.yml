@@ -1,5 +1,5 @@
-publish_to_cloudflare_pages:
-  stage: publish
+deploy_to_cloudflare_pages:
+  stage: deploy
   image: node:22
   variables:
     CLOUDFLARE_ACCOUNT_ID: "424d9dabd39849818d9e22366a20e4d6"
@@ -14,5 +14,5 @@ publish_to_cloudflare_pages:
     - npm run build
     - echo "Copying Cloudflare files..."
     - cp -r cloudflare/* out/
-    - echo "Publishing to Cloudflare Pages..."
+    - echo "Deploying to Cloudflare Pages..."
     - npx @cloudflare/pages-cli@latest deploy out --token $CLOUDFLARE_API_TOKEN --account-id $CLOUDFLARE_ACCOUNT_ID --project-name $CLOUDFLARE_PROJECT_NAME
