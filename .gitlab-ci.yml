@@ -2,9 +2,9 @@ deploy_to_cloudflare_pages:
   stage: deploy
   image: node:22
   variables:
+    CLOUDFLARE_API_TOKEN: $CLOUDFLARE_API_TOKEN
     CLOUDFLARE_ACCOUNT_ID: "424d9dabd39849818d9e22366a20e4d6"
     CLOUDFLARE_PROJECT_NAME: "www-zue-dev"
-    CLOUDFLARE_API_TOKEN: $CLOUDFLARE_API_TOKEN
   script:
     - echo "Checking out code..."
     - git checkout $CI_COMMIT_REF_NAME
@@ -15,4 +15,4 @@ deploy_to_cloudflare_pages:
     - echo "Copying Cloudflare files..."
     - cp -r cloudflare/* out/
     - echo "Deploying to Cloudflare Pages..."
-    - npx @cloudflare/pages-cli@latest deploy out --token $CLOUDFLARE_API_TOKEN --account-id $CLOUDFLARE_ACCOUNT_ID --project-name $CLOUDFLARE_PROJECT_NAME
+    - npx wrangler pages publish ./out --project-name $CLOUDFLARE_PROJECT_NAME
