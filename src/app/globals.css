@@ -99,3 +99,25 @@ body {
     opacity: 1;
   }
 }
+
+/* themes! */
+.zd-theme-default {
+  --zd-theme-background-light: white;
+  --zd-theme-foreground-light: black;
+  --zd-theme-background-dark: black;
+  --zd-theme-foreground-dark: white;
+}
+
+.zd-theme-cyberpunk2077-yellow {
+  --zd-theme-background-light: yellow;
+  --zd-theme-foreground-light: black;
+  --zd-theme-background-dark: black;
+  --zd-theme-foreground-dark: yellow;
+}
+
+.zd-theme-neon {
+  --zd-theme-background-light: #ff10f0;
+  --zd-theme-foreground-light: white;
+  --zd-theme-background-dark: #000000;
+  --zd-theme-foreground-dark: #ff10f0;
+}

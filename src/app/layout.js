@@ -24,10 +24,16 @@ export const viewport = {
 };
 
 export default ({ children }) => {
+  const theme = [
+    "zd-theme-default",
+    "zd-theme-cyberpunk2077-yellow",
+    "zd-theme-neon",
+  ].sort(() => Math.random() - 0.5)[0];
+
   return (
     <html
       lang="en"
-      className="bg-white text-black dark:bg-black dark:text-white"
+      className={`${theme} bg-[--zd-theme-background-light] text-[--zd-theme-foreground-light] dark:bg-[--zd-theme-background-dark] dark:text-[--zd-theme-foreground-dark]`}
     >
       <body>
         <header></header>
