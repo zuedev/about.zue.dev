@@ -8,6 +8,8 @@ import "@fontsource/monaspace-xenon";
 // always import global styles last
 import "./globals.css";
 
+import Script from "next/script";
+
 export const metadata = {
   title: "zuedev's space",
   description: "Hello, World! I'm zuedev.",
@@ -39,6 +41,7 @@ export default ({ children }) => {
         <header></header>
         <main>{children}</main>
         <footer></footer>
+        <Script src="/layout.js" />
       </body>
     </html>
   );
