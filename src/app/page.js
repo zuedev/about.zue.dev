@@ -58,7 +58,6 @@ export default () => {
                   <a
                     className="underline decoration-wavy text-green-700 dark:text-green-400"
                     href="/mentoring"
-                    target="_blank"
                   >
                     mentoring
                   </a>{" "}
