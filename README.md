@@ -1,5 +1,15 @@
-> ⚠️ **TODO:** Due to migrating from GitLab EE, this repo needs to be hooked back up to CI/CD!
-
 # zue.dev
 
-My personal website and root domain.
+> My ever-changing personal website...
+
+## Development
+
+### Mirrors
+
+This repository uses mirrors!
+
+The primary host is: https://git.zue.dev/zuedev/zue.dev
+
+Official mirrors are:
+
+- [GitHub](https://github.com/zuedev/zue.dev)
