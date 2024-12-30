@@ -42,6 +42,7 @@ export default () => {
               style={{
                 backgroundImage: item.bgImage ? `url(${item.bgImage})` : "",
               }}
+              target="_blank"
             >
               <h2 className="text-4xl font-bold">{item.title}</h2>
               <p className="text-lg">{item.description}</p>
