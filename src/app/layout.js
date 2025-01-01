@@ -32,7 +32,7 @@ export default ({ children }) => {
         <header></header>
         <main>{children}</main>
         <footer></footer>
-        <Script src="/layout.js" />
+        <Script src="/tabAnimation.js" />
       </body>
     </html>
   );
