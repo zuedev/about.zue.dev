@@ -28,8 +28,8 @@ export const viewport = {
 export default ({ children }) => {
   const theme = [
     "zd-theme-default",
-    "zd-theme-cyberpunk2077-yellow",
-    "zd-theme-neon",
+    // "zd-theme-cyberpunk2077-yellow",
+    // "zd-theme-neon",
   ].sort(() => Math.random() - 0.5)[0];
 
   return (
