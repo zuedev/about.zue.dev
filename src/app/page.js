@@ -6,15 +6,11 @@ export default () => {
           <h1>
             Hello, World!
             <br />
-            I'm{" "}
-            <span className="bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent">
-              <pan>zuedev</pan>
-            </span>
-            .
+            I'm <pan>zuedev</pan>.
           </h1>
         </section>
-        <section className="border-4 border-[--zd-theme-foreground-light] dark:border-[--zd-theme-foreground-dark]">
-          <h2 className="text-6xl font-bold bg-[--zd-theme-foreground-light] text-[--zd-theme-background-light] dark:bg-[--zd-theme-foreground-dark] dark:text-[--zd-theme-background-dark] p-2">
+        <section className="border-4 border-white">
+          <h2 className="text-6xl font-bold bg-white text-black p-2">
             Who am I? ✨
           </h2>
 
@@ -28,7 +24,7 @@ export default () => {
               <p>
                 If you want to learn more about me, check out my{" "}
                 <a
-                  className="underline decoration-wavy text-orange-500 dark:text-yellow-300 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                  className="underline decoration-wavy text-yellow-300"
                   href="/resume/index.html"
                   target="_blank"
                 >
@@ -42,7 +38,7 @@ export default () => {
                 <li>
                   Given directorship of a{" "}
                   <a
-                    className="underline decoration-wavy text-blue-500 dark:text-cyan-300 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                    className="underline decoration-wavy text-cyan-300"
                     href="https://unnamed.group"
                     target="_blank"
                   >
@@ -60,7 +56,7 @@ export default () => {
                 <li>
                   Started{" "}
                   <a
-                    className="underline decoration-wavy text-green-700 dark:text-green-400 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                    className="underline decoration-wavy text-green-400"
                     href="/mentoring"
                   >
                     mentoring
@@ -75,7 +71,7 @@ export default () => {
               <p>
                 I'm an{" "}
                 <a
-                  className="underline decoration-wavy text-purple-700 dark:text-purple-400 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                  className="underline decoration-wavy text-purple-400"
                   href="/steam"
                   target="_blank"
                 >
@@ -90,7 +86,7 @@ export default () => {
             </div>
           </div>
         </section>
-        <section className="p-4 space-y-4 border-4 bg-[--zd-theme-foreground-light] dark:bg-[--zd-theme-foreground-dark] text-[--zd-theme-background-light] dark:text-[--zd-theme-background-dark] border-[--zd-theme-foreground-light] dark:border-[--zd-theme-foreground-dark]">
+        <section className="p-4 space-y-4 border-4 bg-white text-black border-white">
           <h2 className="text-6xl font-bold">What am I up to? 💼</h2>
 
           <div className="text-justify space-y-4">
@@ -109,7 +105,7 @@ export default () => {
                       Money makes the world go round, unfortunately... That's
                       why I founded and run both{" "}
                       <a
-                        className="underline decoration-wavy text-orange-500 dark:text-yellow-300 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                        className="underline decoration-wavy text-yellow-300"
                         href="https://termina.one"
                         target="_blank"
                       >
@@ -117,7 +113,7 @@ export default () => {
                       </a>{" "}
                       and{" "}
                       <a
-                        className="underline decoration-wavy text-green-700 dark:text-green-400 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                        className="underline decoration-wavy text-green-400"
                         href="https://area96.digital"
                         target="_blank"
                       >
@@ -135,7 +131,7 @@ export default () => {
                       to make, and projects to work on. Right now, I'm trying to
                       get back into making mods for{" "}
                       <a
-                        className="underline decoration-wavy text-pink-500 dark:text-red-500 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                        className="underline decoration-wavy text-red-500"
                         href="https://minecraft.net"
                         target="_blank"
                       >
@@ -152,7 +148,7 @@ export default () => {
                       I'm currently working on directing a non-profit project
                       called{" "}
                       <a
-                        className="underline decoration-wavy text-red-500 dark:text-pink-400 bg-[--zd-theme-foreground-light] px-2 py-1 dark:p-0 dark:bg-transparent"
+                        className="underline decoration-wavy text-pink-400"
                         href="https://unnamed.group"
                         target="_blank"
                       >
@@ -164,10 +160,7 @@ export default () => {
                   ),
                 },
               ].map((item, index) => (
-                <div
-                  key={index}
-                  className="p-4 space-y-2 bg-[--zd-theme-background-light] text-[--zd-theme-foreground-light] dark:bg-[--zd-theme-background-dark] dark:text-[--zd-theme-foreground-dark]"
-                >
+                <div key={index} className="p-4 space-y-2 bg-black text-white">
                   <h3 className="text-4xl font-bold">{item.title}</h3>
                   <p>{item.description}</p>
                 </div>
