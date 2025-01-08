@@ -36,7 +36,7 @@ export default () => {
                 <li>Software engineer (full-stack) for more than 12 years;</li>
                 <li>Trusted with leadership for 9 of those years;</li>
                 <li>
-                  Given directorship of a{" "}
+                  Director of a{" "}
                   <a
                     className="underline decoration-wavy text-cyan-300"
                     href="https://unnamed.group"
@@ -44,7 +44,7 @@ export default () => {
                   >
                     non-profit
                   </a>{" "}
-                  since 2023;
+                  since 2016;
                 </li>
                 <li>
                   Programming polyglot (JavaScript, Python, C#, and more);
