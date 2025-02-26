@@ -106,7 +106,7 @@ export default () => {
                       why I founded and run both{" "}
                       <a
                         className="underline decoration-wavy text-yellow-300"
-                        href="https://termina.one"
+                        href="https://t1.zue.dev"
                         target="_blank"
                       >
                         Termina One
