@@ -57,7 +57,7 @@ export default () => {
                   Started{" "}
                   <a
                     className="underline decoration-wavy text-green-400"
-                    href="/mentoring"
+                    href="https://gumroad.zue.dev"
                   >
                     mentoring
                   </a>{" "}
