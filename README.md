@@ -8,8 +8,8 @@
 
 This repository uses mirrors!
 
-The primary host is: https://git.zue.dev/?p=zue.dev.git
+The primary host is: https://github.com/zuedev/zue.dev
 
 Official mirrors are:
 
-- [GitHub](https://github.com/zuedev/zue.dev)
+- [GitLab](https://gitlab.com/zuedev/zue.dev)
