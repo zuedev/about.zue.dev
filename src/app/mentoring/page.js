@@ -26,13 +26,22 @@ export default () => {
             //   url: "/mentoring/basics",
             // },
             {
-              title: "Mastering Cloudflare's Free Plan",
+              title: "Web Basics",
               description:
-                "Learn how to use Cloudflare's free plan to its full potential.",
+                "Learn HTML, CSS & JavaScript to Create Stunning Websites!",
               classes: "bg-gradient-to-br from-blue-500 to-cyan-500 text-black",
               bgImage:
-                "https://public-files.gumroad.com/k6xjy7a7hjsv19gsmhuj8r7c10md",
-              url: "https://zuedev.gumroad.com/l/mastering-cloudflare?layout=profile",
+                "https://public-files.gumroad.com/xocc3smd5lmeq7ahiz1o8pggx9z4",
+              url: "https://zuedev.gumroad.com/l/web-basics?layout=profile",
+            },
+            {
+              title: "Python Fundamentals",
+              description:
+                "Master the Basics of Python & Kickstart Your Coding Journey!",
+              classes: "bg-gradient-to-br from-blue-500 to-cyan-500 text-black",
+              bgImage:
+                "https://public-files.gumroad.com/jjfjnqk9jqfdqidfmzyfqnaht1d2",
+              url: "https://zuedev.gumroad.com/l/python-fundamentals?layout=profile",
             },
           ].map((item) => (
             <a
