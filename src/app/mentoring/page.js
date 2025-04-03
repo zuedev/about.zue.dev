@@ -32,7 +32,7 @@ export default () => {
               classes: "bg-gradient-to-br from-blue-500 to-cyan-500 text-black",
               bgImage:
                 "https://public-files.gumroad.com/k6xjy7a7hjsv19gsmhuj8r7c10md",
-              url: "https://gumroad.zue.dev/l/mastering-cloudflare?layout=profile",
+              url: "https://zuedev.gumroad.com/l/mastering-cloudflare?layout=profile",
             },
           ].map((item) => (
             <a
