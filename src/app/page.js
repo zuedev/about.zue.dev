@@ -1,4 +1,6 @@
 export default () => {
+  const yearsAsEngineer = new Date().getFullYear() - 2012;
+
   return (
     <>
       <div className="space-y-8 p-4 text-2xl">
@@ -33,7 +35,10 @@ export default () => {
                 . In short:
               </p>
               <ul className="pl-4 list-disc list-inside">
-                <li>Software engineer (full-stack) for more than 12 years;</li>
+                <li>
+                  Software engineer (full-stack) for more than {yearsAsEngineer}{" "}
+                  years;
+                </li>
                 <li>Trusted with leadership for 9 of those years;</li>
                 <li>
                   Director of a{" "}
