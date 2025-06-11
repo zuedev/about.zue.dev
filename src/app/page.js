@@ -114,7 +114,7 @@ export default () => {
                       and{" "}
                       <a
                         className="underline decoration-wavy text-green-400"
-                        href="https://area96.digital"
+                        href="https://96.zue.dev"
                         target="_blank"
                       >
                         Area96 Digital
