@@ -77,7 +77,7 @@ export default () => {
                 I'm an{" "}
                 <a
                   className="underline decoration-wavy text-purple-400"
-                  href="/steam"
+                  href="https://zue.dev/steam"
                   target="_blank"
                 >
                   avid gamer
