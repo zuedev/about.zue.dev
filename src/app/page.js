@@ -27,7 +27,7 @@ export default () => {
                 If you want to learn more about me, check out my{" "}
                 <a
                   className="underline decoration-wavy text-yellow-300"
-                  href="/resume/index.html"
+                  href="https://zue.dev/resume"
                   target="_blank"
                 >
                   resume
